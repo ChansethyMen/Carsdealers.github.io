@@ -64,9 +64,10 @@
 }
 .homePage img{
     max-width: 100%;
-    width: 100%;
+    width: 1015px;
     height: auto;
     padding-left: 409px;
+
 }
 h2{
     font-family: AKbalthom SuperheroKH;
@@ -182,8 +183,110 @@ h2{
     border-radius: 20px;
     padding: 20px;
 }
+body{
+    display: inherit;
+}
+#about_us h2{
+    padding: 0;
+    margin: 0;
+    font-family: AKbalthom SuperheroKH;
+    font-size: 55px;
+    text-align: center;
+    text-decoration: underline;
+}
+#about_us p{
+    margin-left: 35px;
+    font-family: Arial;
+    font-size: 35px;
+}
+#about_us p span{
+    margin-left: 65px;
+}
+.aboutimg1{
+    text-align: center;
+    display:block;
+}
+#footerPage{
+    padding: 30px;
+    display: flex;
+}
+#footerPage .footimg{
+    text-align: left;
+    
+}
+#footerPage h1{
+    font-family: AKbalthom SuperheroKH;
+    font-size: 25px;
+    padding-left: 50px;
+}
+#footerPage ul{
+    font-family: AKbalthom SuperheroKH;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
 
-
-
+}
+#footerPage li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#footerPage li a:hover{
+    background-color: #555;
+    color: white;
+}
+#contactContainer h2{
+    padding: 0;
+    margin: 0;
+    font-family: AKbalthom SuperheroKH;
+    font-size: 55px;
+    text-align: center;
+    text-decoration: underline;
+}
+#contactContainer h3{
+    font-family: AKbalthom SuperheroKH;
+    font-size: 35px;
+    text-align: center;
+}
+#contactContainer form{
+    text-align: center;
+    font-size: 30px;
+    
+}
+#personal{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 35px;
+}
+#personal p span{
+    color: red;
+}
+#blogcontainer h1{
+    padding: 0;
+    margin: 0;
+    font-family: AKbalthom SuperheroKH;
+    font-size: 55px;
+    text-align: center;
+    text-decoration: underline;
+}
+#blogcontainer p{
+    font-family: AKbalthom SuperheroKH;    
+    font-size: 35px;
+    padding-left: 35px;
+}
+#blogImg1{
+    background-color: aqua;
+    border-radius: 30px;
+    text-align: right;
+    padding: 20px;
+    display: flex;
+    margin: 20px;
+}
+#blogImgs1 p{
+    font-family: AKbalthom SuperheroKH;   
+    font-size: 15px;
+}
 
 
